@@ -1,0 +1,53 @@
+/*Apply a box layout model to all elements while allowing componenets to change */
+* {
+  box-sizing: border-box;
+}
+
+.settings {
+  background: linear-gradient(to top left, #59ffb2 0%, #9900ff 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.front-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 600px;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  color: aliceblue;
+  font-size: 50px;
+  animation: slide-left 0.4s;
+}
+
+.ghibli {
+  width: 500px;
+  border: 1px;
+  animation: slide-left 0.8s;
+}
+
+.description {
+  font-family: "roboto", cursive;
+  font-size: 25px;
+  color: aliceblue;
+  padding: 5px;
+  border-top: white 3px solid;
+  border-bottom: white 3px solid;
+  border-radius: 10px;
+  animation: slide-left 1.2s;
+}
