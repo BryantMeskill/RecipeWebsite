@@ -64,6 +64,10 @@
   font-size: 25px;
 }
 
+.baconpancakes {
+  color: aliceblue;
+}
+
 .at-vid {
   animation: slide-left 0.8s;
 }
@@ -86,4 +90,43 @@
   padding: 5px;
   border-radius: 10px;
   animation: slide-left 1.2s;
+}
+
+.ingredientshead {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: "bebas neue", sans-serif;
+  font-weight: lighter;
+  animation: slide-left 1.6s;
+}
+
+.ingredients {
+  font-size: 25px;
+  font-family: "roboto", cursive;
+  color: aliceblue;
+  border: 3px groove aliceblue;
+  margin: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom left, #c977ff 0%, #3c80ff 100%);
+  animation: slide-left 2s;
+}
+
+.instructionshead {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: "bebas neue", sans-serif;
+  font-weight: lighter;
+  animation: slide-left 2.4s;
+}
+
+.instructions {
+  font-size: 25px;
+  font-family: "roboto", cursive;
+  color: aliceblue;
+  border: 3px groove aliceblue;
+  margin: 5px;
+  width: 500px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom left, #59ffb2 0%, #9900ff 100%);
+  animation: slide-left 2.4s;
 }
