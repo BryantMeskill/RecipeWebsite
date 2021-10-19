@@ -4,7 +4,7 @@
 }
 
 .settings {
-  background: linear-gradient(to top left, #59ffb2 0%, #9900ff 100%);
+  background: #2c2c2c;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -47,7 +47,7 @@
   font-size: 25px;
   width: 500px;
   border: 3px groove aliceblue;
-  background: rgb(73, 73, 73);
+  background: linear-gradient(to bottom left, #ff7795 0%, #a73cff 100%);
   color: aliceblue;
   padding: 5px;
   border-radius: 10px;
@@ -82,7 +82,7 @@
   font-family: "roboto", cursive;
   width: 500px;
   border: 3px groove rgb(255, 255, 255);
-  background: rgb(73, 73, 73);
+  background: linear-gradient(to bottom left, #ff7795 0%, #a73cff 100%);
   padding: 5px;
   border-radius: 10px;
   animation: slide-left 1.2s;
