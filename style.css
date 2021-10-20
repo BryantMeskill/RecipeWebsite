@@ -132,6 +132,7 @@
   color: aliceblue;
   border: 3px groove aliceblue;
   margin: 5px;
+  width: 500px;
   border-radius: 10px;
   background: #3c80ff;
   animation: slide-left 1s;
