@@ -79,6 +79,10 @@
   color: aliceblue;
 }
 
+.panyoramen {
+  color: aliceblue;
+}
+
 .recipe-title {
   font-family: "Bebas Neue", cursive;
   color: aliceblue;
@@ -87,6 +91,10 @@
 }
 
 .at-vid {
+  animation: slide-left 0.4s;
+}
+
+.ponyoimg {
   animation: slide-left 0.4s;
 }
 
