@@ -69,6 +69,13 @@
   padding: 5px;
 }
 
+.recipehead {
+  font-family: "bebas neue", sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: lighter;
+}
+
 .recipes {
   color: aliceblue;
   border: 3px groove aliceblue;
