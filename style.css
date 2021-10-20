@@ -71,6 +71,10 @@
 
 .recipes {
   color: aliceblue;
+  border: 3px groove aliceblue;
+  border-radius: 10px;
+  background: linear-gradient(to bottom left, #286fa8 0%, #8810c0 100%);
+  margin: 5px;
   font-family: "roboto", cursive;
   font-size: 25px;
 }
@@ -79,7 +83,11 @@
   color: aliceblue;
 }
 
-.panyoramen {
+.ponyoramen {
+  color: aliceblue;
+}
+
+.capncrunch {
   color: aliceblue;
 }
 
@@ -95,6 +103,11 @@
 }
 
 .ponyoimg {
+  animation: slide-left 0.4s;
+}
+
+.crunch {
+  width: 500px;
   animation: slide-left 0.4s;
 }
 
@@ -134,7 +147,7 @@
   margin: 5px;
   width: 500px;
   border-radius: 10px;
-  background: #3c80ff;
+  background: #2f67cf;
   animation: slide-left 1s;
 }
 
@@ -154,7 +167,7 @@
   margin: 5px;
   width: 500px;
   border-radius: 10px;
-  background: #8400ff;
+  background: #650bb9;
   animation: slide-left 1.2s;
 }
 
