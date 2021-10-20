@@ -28,18 +28,27 @@
   }
 }
 
+@keyframes zoom {
+  from {
+    font-size: 0;
+  }
+
+  to {
+    font-size: 50px;
+  }
+}
+
 .title {
   font-family: "Bebas Neue", cursive;
   color: aliceblue;
   font-size: 50px;
-  animation: slide-left 0.4s;
+  animation: zoom 0.4s;
 }
 
 .ghibli {
   width: 500px;
   height: auto;
   border: 1px;
-  animation: slide-left 0.8s;
 }
 
 .description {
@@ -51,11 +60,13 @@
   color: aliceblue;
   padding: 5px;
   border-radius: 10px;
-  animation: slide-left 1.2s;
 }
 
 .home {
   color: aliceblue;
+  font-family: "roboto", cursive;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .recipes {
@@ -68,8 +79,15 @@
   color: aliceblue;
 }
 
+.recipe-title {
+  font-family: "Bebas Neue", cursive;
+  color: aliceblue;
+  font-size: 50px;
+  animation: slide-left 0.4s;
+}
+
 .at-vid {
-  animation: slide-left 0.8s;
+  animation: slide-left 0.4s;
 }
 
 .imgdescription {
@@ -77,7 +95,7 @@
   font-size: 30px;
   color: aliceblue;
   font-weight: lighter;
-  animation: slide-left 0.8s;
+  animation: slide-left 0.6s;
 }
 
 .paragraph {
@@ -86,10 +104,10 @@
   font-family: "roboto", cursive;
   width: 500px;
   border: 3px groove rgb(255, 255, 255);
-  background: linear-gradient(to bottom left, #ff7795 0%, #a73cff 100%);
-  padding: 5px;
+  background: #ff7795;
+  padding: 10px;
   border-radius: 10px;
-  animation: slide-left 1.2s;
+  animation: slide-left 0.8s;
 }
 
 .ingredientshead {
@@ -97,7 +115,7 @@
   font-size: 30px;
   font-family: "bebas neue", sans-serif;
   font-weight: lighter;
-  animation: slide-left 1.6s;
+  animation: slide-left 1s;
 }
 
 .ingredients {
@@ -107,8 +125,8 @@
   border: 3px groove aliceblue;
   margin: 5px;
   border-radius: 10px;
-  background: linear-gradient(to bottom left, #c977ff 0%, #3c80ff 100%);
-  animation: slide-left 2s;
+  background: #3c80ff;
+  animation: slide-left 1s;
 }
 
 .instructionshead {
@@ -116,7 +134,7 @@
   font-size: 30px;
   font-family: "bebas neue", sans-serif;
   font-weight: lighter;
-  animation: slide-left 2.4s;
+  animation: slide-left 1.2s;
 }
 
 .instructions {
@@ -127,6 +145,13 @@
   margin: 5px;
   width: 500px;
   border-radius: 10px;
-  background: linear-gradient(to bottom left, #59ffb2 0%, #9900ff 100%);
-  animation: slide-left 2.4s;
+  background: #8400ff;
+  animation: slide-left 1.2s;
+}
+
+.top {
+  color: aliceblue;
+  font-family: "roboto", cursive;
+  font-size: 20px;
+  padding: 5px;
 }
