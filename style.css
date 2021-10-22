@@ -42,7 +42,7 @@
   font-family: "Bebas Neue", cursive;
   color: aliceblue;
   font-size: 50px;
-  animation: zoom 0.4s;
+  animation: zoom 0.6s;
 }
 
 .ghibli {
@@ -71,7 +71,7 @@
 
 .recipehead {
   font-family: "bebas neue", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   color: aliceblue;
   font-weight: lighter;
 }
@@ -140,7 +140,7 @@
 
 .ingredientshead {
   color: aliceblue;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "bebas neue", sans-serif;
   font-weight: lighter;
   animation: slide-left 1s;
@@ -160,7 +160,7 @@
 
 .instructionshead {
   color: aliceblue;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "bebas neue", sans-serif;
   font-weight: lighter;
   animation: slide-left 1.2s;
