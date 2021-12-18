@@ -1,4 +1,4 @@
-/*Apply a box layout model to all elements while allowing componenets to change */
+/*Apply a box layout model to all elements while allowing components to change */
 * {
   box-sizing: border-box;
 }
